@@ -4,11 +4,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "/apps/api/dist/index.js"
-    },
-    {
-      "source": "/",
-      "destination": "/apps/api/dist/index.js"
+      "destination": "/apps/api/src/index.ts"
     }
   ]
 }
